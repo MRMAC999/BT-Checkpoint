@@ -1,0 +1,32 @@
+h1 {
+    font-style: italic;
+    color: brown;
+}
+
+.container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3em;
+    
+}
+.fl-1, .fl-2, .fl-3, .fl-4, .fl-5 {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(162, 156, 165, 0.566);
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container > div {
+ 
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.contact {
+    
+    display: grid;
+    justify-content: center;
+}
